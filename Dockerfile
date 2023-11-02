@@ -15,4 +15,4 @@ RUN apk update && \
     # kubernetes
     kubectl
 
-ENTRYPOINT bash
+USER 1001
